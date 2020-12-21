@@ -12,7 +12,6 @@ class TreeNode:
         self.children = c
                 
 class Graph:
-
     # Complete as described in the specification, taking care of two cases:
     # the -1 case, where we read points in the Euclidean plane, and
     # the n>0 case, where we read a general graph in a different format.
@@ -134,8 +133,6 @@ class Graph:
             return True
         return False
         
-
-
     # Consider the effect of reversiing the segment between
     # self.perm[i] and self.perm[j], and commit to the reversal
     # if it improves the tour value.
@@ -227,7 +224,6 @@ class Graph:
                 if matrix[u][v] > 0 and matrix[u][v] < key[v] and not isInMST[v]:
                     key[v] = matrix[u][v]
                     parent[v] = u
-        # self.printMST(parent)
         return parent
 
     def build_Tree_recursion(self, dict, node):
@@ -244,9 +240,6 @@ class Graph:
         # of our class TreeNode()
         for child in range(self.n):
             parent_children[parent[child]].append(TreeNode(child))
-        # for i in range(self.n):
-        #     print(i, parent_children[i].value)
-        # print(parent_children[root].value)
         tree_root = TreeNode(root)
         # Once we have the root and the "family" as a dictionary
         # we can build the tree
@@ -271,6 +264,3 @@ class Graph:
         self.perm = permutation
         # Run DFS on tree_root to get the final permutation
         # Taking into account which node has been visited
-
-
-

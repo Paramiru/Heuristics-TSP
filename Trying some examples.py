@@ -21,7 +21,7 @@ class Graph:
         file = open(filename, 'r')
         if n == -1:
             number_of_lines = 0
-            for line in file:
+            for _ in file:
                 number_of_lines += 1
             self.n = number_of_lines
             self.dists, self.input_points = self.Euclidean_dist(filename)

@@ -71,7 +71,7 @@ def reset_perm(graph):
     graph.perm = list(range(len(graph.perm)))
 
 def printValues(g):
-    # n = -1 if isEuclidean else 1
+    # n = -1 if is Euclidean else 1
     t = round(time("g.tourValue()"),7)
     print("Value of initial permutation:       " + str(round(g.tourValue(),2)))
     print("Time to run graph.tourValue():      " + str(t))
