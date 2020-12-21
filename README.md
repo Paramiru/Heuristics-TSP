@@ -2,7 +2,6 @@
 
 <b>Course Name:</b> Introduction to Algorithms and Data Structures
 <br><b>Coursework Name:</b> Heuristics for the Travelling Salesman Problem
-<br><b>Objective:</b> Code several heuristics and compare them against several input files.
 <br><b>Programming Language:</b> Python3.
 <br><b>Final Mark:</b> 97%
 
