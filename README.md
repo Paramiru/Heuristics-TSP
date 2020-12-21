@@ -27,9 +27,9 @@ and the possible imporvements which could be done.
 ## Files
 <ul>
   <li> <a href="./coursework-document.pdf">coursework-document.pdf</a> --> This pdf file contains the description followed to complete the project.</li>
-  <li> <a href="./Report-TSP.pdf">heatmap</a> --> This .pdf file contains the report explaining my solution to the given coursework.</li>
-  <li> <a href="./python-files">heatmap</a> --> This directory contains the files which contain the written code.</li>
-  <li> <a href="./tests">heatmap</a> --> This directory contains the whole files which can be used to test the code and, consequently, the heuristics implemented to the TSP.</li>
+  <li> <a href="./Report-TSP.pdf">Report-TSP.pdf</a> --> This .pdf file contains the report explaining my solution to the given coursework.</li>
+  <li> <a href="./python-files">python-files</a> --> This directory contains the files which contain the written code.</li>
+  <li> <a href="./tests">tests</a> --> This directory contains the whole files which can be used to test the code and, consequently, the heuristics implemented to the TSP.</li>
 </ul>
   
 ## Getting Started
