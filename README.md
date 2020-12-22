@@ -13,16 +13,11 @@ On the other hand, if we are considering non-euclidean tests, the distance will 
 
 There are some tests provided already, but it is really easy to create your own or to get some real city from the internet and try the heuristics on it. Anyways, considering the files provided (cities25, cities50 and cities75 for the Euclidean case whilst sixnodes is for the non-Euclidean case).
 
-Given a set of nodes, try to find the optimal order so that the cost of a tour is minimal.
-There are several files (cities25, cities50, cities75 & sixnodes) which are used
-as input and from which a graph will be created. The graph for the first three files
-is created using the euclidean distance whilst that is not the case for the last one.
+Given a set of nodes, try to find the optimal order so that the cost of a tour is minimal. There are several files (cities25, cities50, cities75 & sixnodes) which are used as input and from which a graph will be created. The graph for the first three files is created using the euclidean distance whilst that is not the case for the last one.
 
-From there, in graph.py there are several functions which try several approaches
-to the problem and output the value of the tour. 
+From there, in graph.py there are several functions which try several approaches to the problem and output the value of the tour. 
 
-I have uploaded a document which analyses how these functions compare to each other
-and the possible imporvements which could be done.
+I have uploaded a document which analyses how these functions compare to each other and the possible imporvements which could be done.
 
 ## Files
 <ul>
@@ -41,7 +36,7 @@ I will discuss how to clone this repository and set it up in any IDE of your cho
 
 The first thing you should do is clone this repository into your local machine. You can do this with the following command:
 ```
-git clone https://github.com/Paramiru/Heatmap
+git clone https://github.com/Paramiru/Heuristics-TSP
 ```
 Once you have cloned the repository, you should check your current version of Java. I used Java 11 (LTS) for the project. You can check the version you are currently using running this command in the terminal.
 ```
