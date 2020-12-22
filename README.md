@@ -2,7 +2,7 @@
 
 <b>Course Name:</b> Introduction to Algorithms and Data Structures
 <br><b>Coursework Name:</b> Heuristics for the Travelling Salesman Problem
-<br><b>Programming Language:</b> Python3.
+<br><b>Programming Language:</b> Python3
 <br><b>Final Mark:</b> 97%
 
 ## Description of the coursework
@@ -30,7 +30,7 @@ I have uploaded a document which analyses how these functions compare to each ot
 ## Getting Started
 
 These subsections will help you get a copy of the project and understand how to run it on your local machine for development and testing purposes.
-I will discuss how to clone this repository and set it up in any IDE of your choice. Furthermore, instructions on how to run the server will be given as well as how to build & run the project from the terminal.
+I will discuss how to clone this repository and set it up in any IDE of your choice.
 
 ### How to Install
 
@@ -38,33 +38,20 @@ The first thing you should do is clone this repository into your local machine. 
 ```
 git clone https://github.com/Paramiru/Heuristics-TSP
 ```
-Once you have cloned the repository, you should check your current version of Java. I used Java 11 (LTS) for the project. You can check the version you are currently using running this command in the terminal.
+Once you have cloned the repository, you should check your current version of Python. You can do so running this command in the terminal.
 ```
-java --version
+python --version
 ```
-It is worth mentioning that you do not have to worry about the dependencies since they are in the file pom.xml, which you can find inside the heatmap directory. Maven will take care of downloading anything you do not currently have so that you can run the project.
+I used Python3 for the project and if you are currently using Python2 it is highly recommended you update to Python3.
 
-If you have a previous version of Java 11, you can download it from Oracle's website.
-
-Once you have cloned the repository, you can import the Maven project to your preferred IDE. I used Eclipse, but feel free to use whichever you are most comfortable with. 
-You can check the Java version you are using for the project. In order to do that, find "JRE System Library" in the Package Explorer and select "Properties". Change "Execution environment" to be "JavaSE-11".
+Once you have cloned the repository, you can open the Python files (.py) in your favourite text editor. I used VS Code, but you can use Vim, Emacs or whatever you feel most comfortable with.
 
 ## Running the Project 
 
-Having built the project, you will see a runnable file inside the heatmap/target folder <b>heatmap-0.0.1-SNAPSHOT.jar</b>
-Run the .jar file using:
+Having downloaded the project, you can try the heuristics coded in <em>graph.py</em> from <em>tests.py</em>. In order to use your own tests, just put the path to you file in the end of <em>tests.py</em> and run the file from your editor or from the terminal (with the current directory of your terminal session being Heuristics-TSP/python-files)
+```bash
+python3 tests.py
 ```
-java -jar heatmap-0.0.1-SNAPSHOT.jar ../predictions.txt
-```
-where ../predictions.txt correspond to the text file which sould be in the heatmap directory.
-
-## Screenshots
-
-<p align="center">
-  <img width="460" src="">
-  <br>
-  Rendered heatmap from given predictions in coursework document
-</p>
 
 ## Authors
 
