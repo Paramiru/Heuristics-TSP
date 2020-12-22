@@ -1,4 +1,4 @@
-# Heuristics for the Travelling Salesman Prorblem
+# Heuristics for the Travelling Salesman Problem
 
 <b>Course Name:</b> Introduction to Algorithms and Data Structures
 <br><b>Coursework Name:</b> Heuristics for the Travelling Salesman Problem
